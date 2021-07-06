@@ -12,7 +12,7 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -38,4 +38,34 @@ section{
 }
 .photo-size{
     width: 30%;
+}
+.my-recipies{
+    text-align: center;
+}
+.flex-container{
+    background-color: white;
+    padding-left: 10px;
+    font-size: 20px;
+    width: 20%;
+    display: inline-block;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 10%;
+    box-shadow: 2px 2px 2px 2px rgb(236, 178, 178);
+}
+.black-color{
+    color: black;
+    font-weight: 900;
+
+}
+.images-size{
+    width: 100%;
+    border-radius: 15px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(10, 10, 49);
+}
+.blue-color{
+    color: rgb(238, 71, 10);
 }
